@@ -12,6 +12,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<!--第二次测试的远程修改--!>
+	
+	
 	<modules>
 		<module>EurekaCenter</module>
 		<module>EurekaProvider1</module>
