@@ -2,12 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- 本地修改-->
-
-
-
-
-
-
+	
+	<!--第一次本地修改和远程修改同时进行，直接pull，拉不下来！，并且保存之后直接添加到暂存区里面了-->
+	
 	<groupId>site.mingji</groupId>
 	<artifactId>EurekaDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
