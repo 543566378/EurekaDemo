@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Eureka-Consumer
+    # 服务端口号
+server:
+  port: 4001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2001/eureka
