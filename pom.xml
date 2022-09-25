@@ -5,6 +5,8 @@
 	
 	<!--第一次本地修改和远程修改同时进行，直接pull，拉不下来！，并且保存之后直接添加到暂存区里面了-->
 	<!-- push之前其实就自动提交了，这次添加到暂存区后是合并分支-->
+	
+	<!-- 这次是测试不添加到暂存区，直接pull远程会不会覆盖工作区-->
 	<groupId>site.mingji</groupId>
 	<artifactId>EurekaDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
