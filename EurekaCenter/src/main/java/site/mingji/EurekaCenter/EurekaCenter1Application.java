@@ -10,6 +10,7 @@ public class EurekaCenter1Application {
 
 	public static void main(String[] args) {
 		System.out.println("补丁测试");
+		
 		SpringApplication.run(EurekaCenter1Application.class, args);
 	}
 }
