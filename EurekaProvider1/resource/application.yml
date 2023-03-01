@@ -1,0 +1,23 @@
+# 向注册中心注册的“服务ID”
+spring:
+  application:
+    name: Eureka-Center
+    # 服务端口号
+server:
+  port: 2001
+
+eureka:
+  instance:
+    # 主机名，集群中用主机名互相区分
+    hostname: Center1
+  client:
+    # 针对单台服务器，不向自己注册，也不从自己拉取
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+    #下面这行不知道是做什么的，域名部分配置成什么都好像对于访问无影响
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/ #单机版服务注册中心
+  server:
+    # 禁用自我保护模式（开发调试时建议关闭）
+    enable-self-preservation: false
+
