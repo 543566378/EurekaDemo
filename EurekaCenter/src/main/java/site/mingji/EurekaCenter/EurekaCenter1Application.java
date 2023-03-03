@@ -20,6 +20,7 @@ public class EurekaCenter1Application {
 		//本地修改
 
 //测试merge
+		//重置
 	}
 	
 	
