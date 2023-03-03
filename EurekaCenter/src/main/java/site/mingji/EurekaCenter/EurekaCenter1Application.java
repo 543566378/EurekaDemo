@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+//测试冲突合并
 @EnableEurekaServer
 @SpringBootApplication
 public class EurekaCenter1Application {
@@ -21,4 +22,6 @@ public class EurekaCenter1Application {
 
 //测试merge
 	}
+	
+	
 }
