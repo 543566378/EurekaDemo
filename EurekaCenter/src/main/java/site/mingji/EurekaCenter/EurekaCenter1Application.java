@@ -16,6 +16,7 @@ public class EurekaCenter1Application {
 		//后来发现推送不了，很乱
 
 //再试试
+		//
 		SpringApplication.run(EurekaCenter1Application.class, args);
 		//本地修改
 
