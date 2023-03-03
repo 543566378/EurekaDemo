@@ -3,7 +3,7 @@ package site.mingji.EurekaCenter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
-//测试冲突合并
+//测试冲突合并解决
 @EnableEurekaServer
 @SpringBootApplication
 public class EurekaCenter1Application {
