@@ -18,5 +18,7 @@ public class EurekaCenter1Application {
 //再试试
 		SpringApplication.run(EurekaCenter1Application.class, args);
 		//本地修改
+
+//测试merge
 	}
 }
