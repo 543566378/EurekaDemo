@@ -14,6 +14,8 @@ public class EurekaCenter1Application {
 		//测试可否临时修改合并结果
 		
 		//后来发现推送不了，很乱
+
+//再试试
 		SpringApplication.run(EurekaCenter1Application.class, args);
 		//本地修改
 	}
